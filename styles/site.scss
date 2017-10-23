@@ -1,4 +1,39 @@
 @import "node_modules/@unumux/theme-unum-default/styles";
 @import "node_modules/@unumux/willow/styles";
+@import '../styles/variables';
 
-@import 'feature/feature';
+
+// CUSTOM COMPONENT OVERRIDES
+@import '../styles/vision';
+@import './components/feature/feature';
+
+
+// WILLOW OVERRRIDES
+@import "./components/overrides/willow/card-grid/card-grid";
+@import "./components/overrides/willow/page-content/page-content";
+
+
+.icon-pin,
+.icon-dental {
+    height: 100%;
+    width: 100%;
+}
+
+.icon-pin {
+    background-image: url("../../images/icon-pin.svg");
+}
+
+.icon-bg {
+    background-color: $component-icon-background-color;
+    border-radius: 50%;
+    height: $space-xxl;
+    margin-bottom: $space;
+    margin-left: auto;
+    margin-right: auto;
+    padding: $space-inset;
+    width: $space-xxl;
+}
+
+.homepage-feature {
+    background-image: url("../../images/hero-image.jpg");
+}

@@ -1,5 +1,5 @@
 &__content {
-    background-color: #fff;
+    background-color: $component-feature-content-background-color;
     display: block;
     padding: $space-inset-squish-xl;
     width: 100%;
@@ -29,5 +29,6 @@
             width: $component-feature-content-after-width-percent;
             z-index: -1;
         }
+
     }
 }
