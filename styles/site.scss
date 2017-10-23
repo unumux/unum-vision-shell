@@ -14,13 +14,22 @@
 
 
 .icon-pin,
-.icon-dental {
+.icon-gear,
+.icon-vision {
     height: 100%;
     width: 100%;
 }
 
 .icon-pin {
     background-image: url("../../images/icon-pin.svg");
+}
+
+.icon-vision {
+    background-image: url("../../images/icon-vision.png");
+}
+
+.icon-gear {
+    background-image: url("../../images/icon-gear.png");
 }
 
 .icon-bg {
