@@ -1,3 +1,5 @@
 .willow-page-content {
-    padding-top: 0;
+    // @include full-bleed;
+    background-color: $component-page-content-background-color;
+    // padding-top: 0;
 }

@@ -1,9 +1,7 @@
-$component-feature-border-color: #BEA97D;
-
 .feature {
     @include set-text-style($text-style-content-1);
-    @include full-bleed;
-
+    // @include full-bleed;
+    
     background-color: $component-feature-background-color;
     border-bottom: $space solid $component-feature-border-color;    
     margin-bottom: $space-xl;    
@@ -19,6 +17,7 @@ $component-feature-border-color: #BEA97D;
     @import "description";
     @import "image";
     @import "list";
+    @import "link";
     @import "content-section";
     @import "heading";
     @import "subheading";

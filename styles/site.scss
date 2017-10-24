@@ -9,8 +9,10 @@
 
 
 // WILLOW OVERRRIDES
+@import "./components/overrides/willow/banner/banner";
 @import "./components/overrides/willow/card-grid/card-grid";
 @import "./components/overrides/willow/page-content/page-content";
+@import "./components/overrides/willow/secondary-nav/secondary-nav";
 
 
 .icon-pin,
@@ -46,3 +48,45 @@
 .homepage-feature {
     background-image: url("../../images/hero-image.jpg");
 }
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1900px;
+    min-height: 100vh;
+
+    @media screen and (min-width: 1900px) {
+        overflow-x: hidden;
+    }
+}
+
+.container {
+    display: block;
+    flex-direction: initial;
+    min-height: auto;
+
+    @media (min-width: 1200px) {
+        max-width: 1260px;
+    }
+}
+
+.willow-card-grid {
+    margin-bottom: $space-xxl;
+}
+
+.up {
+    margin-top: -$space-l;    
+}
+
+.down {
+    margin-top: $space-xl;
+}
+
+.sizing {
+    @media all and (min-width: 992px) {
+        flex-basis: 40%;
+    }
+}
+
