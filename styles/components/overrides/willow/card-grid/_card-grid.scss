@@ -1,16 +1,34 @@
 .willow-card-grid {
-    justify-content: center;
+//     justify-content: center;
 
-   @media all and (min-width: 992px) {
-       justify-content: flex-start;
-   }
+//    @media all and (min-width: 992px) {
+//        justify-content: flex-start;
+//    }
 
-   &__item {
-       justify-content: center;
+//    &__item {
+//        justify-content: center;
        
-       @media all and (min-width: 992px) {
-       justify-content: flex-start;
-       }
-   }
+//        @media all and (min-width: 992px) {
+//        justify-content: flex-start;
+//        }
+//    }
+
+    display: block;
+    margin-bottom: $space-xxl;
+
+    @media (min-width: 768px) {
+        display: flex;
+    }
+
+    &__item {
+        margin-right: 0;
+        
+            @media (min-width: 768px) {
+                margin-right: $space;
+            }
+    }
 }
 
+.willow-card {
+    max-width: none;
+}

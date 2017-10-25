@@ -1,0 +1,9 @@
+&-provider {
+    border: none;
+    height: 625px;
+    width: 100%;
+
+    @import 'content';
+    @import 'description';
+    @import 'link';
+}

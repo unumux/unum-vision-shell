@@ -1,6 +1,7 @@
 &-help {
 
     background-color: $component-help-background-color;
+    border-radius: 8px;
     padding: $space-inset-xl;
     
     @import 'heading';
