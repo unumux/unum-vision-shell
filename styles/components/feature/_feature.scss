@@ -3,6 +3,7 @@
     // @include full-bleed;
     
     background-color: $component-feature-background-color;
+    color: #fff;
     border-bottom: $space solid $component-feature-border-color;    
     margin-bottom: $space-xl;    
     position: relative;
@@ -17,7 +18,6 @@
     @import "description";
     @import "image";
     @import "list";
-    @import "link";
     @import "content-section";
     @import "heading";
     @import "subheading";
